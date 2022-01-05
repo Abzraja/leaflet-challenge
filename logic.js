@@ -84,19 +84,6 @@ d3.json(url).then(function(data) {
     };
 
 
-    // for (i in data.features) {
-
-    //     var earthquake = data.features[i]
-    //     var location = earthquake.geometry.coordinates.slice(0,2).reverse()
-    //     var place = earthquake.properties.place
-    //     var time = earthquake.properties.time
-    //     var magnitude = earthquake.properties.mag
-    //     var color = earthquake.geometry.coordinates.slice(2,3)
-    //     var area = Math.pow(10, magnitude)
-    // }
-
-
-
   
     // plot Earthquakes using geoJSON data
     var earthquakes = L.geoJSON(data, {
@@ -153,22 +140,6 @@ legend.onAdd = function (map) {
 legend.addTo(map);
     
 
-    //     //Add circles to the map.
-    //     L.circle(location, {
-    //     fillOpacity: 0.75,
-    //     color: "black",
-    //     fillColor: color,
-    //     // Adjust the radius.
-    //     radius: Math.sqrt((area/Math.PI))*1000
-    //     })
-    //     .addTo(myMap)
-    //     .bindPopup(`<h3>${place}</h3> <p><h4>Time: ${time}</h4></p> <p><h4>Magnitude: ${magnitude}</h4></p>`)
-        
-    // //close loop
-    // }
-
-  //Close second d3.json
 });
     
-// Close first D3.json
 });
