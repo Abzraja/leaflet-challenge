@@ -1,6 +1,6 @@
 https://abzraja.github.io/leaflet-javascript-geojson/
 
-![Map](Images/preview-map.PNG)
+![Map](Images/preview-map.png)
 
 # Interactive JavaScript Map
 
