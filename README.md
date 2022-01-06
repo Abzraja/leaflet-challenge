@@ -1,8 +1,8 @@
-https://abzraja.github.io/leaflet-javascript-geojson/
-
 ![Map](Images/preview-map.png)
 
 # Interactive JavaScript Map
+
+## [Click Here to View Map](https://github.com/Abzraja/leaflet-javascript-geojson)
 
 Interactive Map created using [Leaflet](https://leafletjs.com/) JavaScript library and [OpenStreetMap Tile Layers](https://wiki.openstreetmap.org/wiki/Tile_servers).
 
@@ -18,7 +18,6 @@ Real earthquake data was imported from [USGS](https://www.usgs.gov/) in [GeoJSON
 
 * The colour of the indicators is based on the depth of the earthquake.
 
-https://abzraja.github.io/leaflet-javascript-geojson/
 
 <br />
 <br />
