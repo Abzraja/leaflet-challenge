@@ -1,6 +1,17 @@
+# Visualising Earthquake Data using Leaflet.js
+
+### Summary
+The USGS provides a live data feed of earthquake in GeoJSON format -
+[USGS Earthquake Feed](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php).
+
+I wanted to display this data on a map to enable visual analysis of eathquake activity and get clear visual indicators of where earthquakes occur most frequently and the severity of the earthquakes. This can assist in identifying hazardous and high risk areas of seismic activity.
+
+Tectonic plate lines were also marked on the map to get a visual indicator of the relationship between the plates and locations of seismic activity.
+
+
 ![Map](Images/preview-map.png)
 
-# Interactive JavaScript Map
+# Real-time Interactive JavaScript Map
 
 ## [Click Here to View Map](https://github.com/Abzraja/leaflet-javascript-geojson)
 
